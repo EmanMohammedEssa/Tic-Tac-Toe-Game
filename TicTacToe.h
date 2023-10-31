@@ -9,11 +9,10 @@ private:
     int row,column;
 public:
     TicTacToe();
-    TicTacToe(char board[4][4]);
+    void update();
     void playGame();
     void printBoard(char board[4][4]);
     bool checkWin(char board[4][4]);
     bool checkGameOver(char board[4][4]);
     void printInstructions();
 };
-
